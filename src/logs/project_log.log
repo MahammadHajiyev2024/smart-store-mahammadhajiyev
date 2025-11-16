@@ -1,0 +1,616 @@
+2025-11-11 18:41:35.629 | INFO     | __main__:main:102 - ========================================
+2025-11-11 18:41:35.629 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 18:41:35.631 | INFO     | __main__:main:104 - ========================================
+2025-11-11 18:41:35.631 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 18:41:35.631 | ERROR    | __main__:verify_dw:63 - Database file not found at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 18:51:01.935 | INFO     | __main__:main:102 - ========================================
+2025-11-11 18:51:01.935 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 18:51:01.935 | INFO     | __main__:main:104 - ========================================
+2025-11-11 18:51:01.935 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 18:51:01.935 | ERROR    | __main__:verify_dw:63 - Database file not found at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 19:04:54.169 | INFO     | __main__:main:102 - ========================================
+2025-11-11 19:04:54.169 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 19:04:54.169 | INFO     | __main__:main:104 - ========================================
+2025-11-11 19:04:54.169 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 19:04:54.169 | ERROR    | __main__:verify_dw:63 - Database file not found at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 19:05:37.680 | INFO     | __main__:main:102 - ========================================
+2025-11-11 19:05:37.680 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 19:05:37.680 | INFO     | __main__:main:104 - ========================================
+2025-11-11 19:05:37.680 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 19:05:37.680 | ERROR    | __main__:verify_dw:63 - Database file not found at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 19:09:28.608 | INFO     | __main__:main:102 - ========================================
+2025-11-11 19:09:28.608 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 19:09:28.608 | INFO     | __main__:main:104 - ========================================
+2025-11-11 19:09:28.608 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 19:09:28.608 | ERROR    | __main__:verify_dw:63 - Database file not found at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 19:17:10.502 | INFO     | __main__:main:102 - ========================================
+2025-11-11 19:17:10.502 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 19:17:10.502 | INFO     | __main__:main:104 - ========================================
+2025-11-11 19:17:10.518 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 19:17:10.522 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 19:17:10.522 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 19:17:10.557 | ERROR    | __main__:verify_dw:93 - Error verifying 'customers': Catalog Error: Table with name customers does not exist!
+Did you mean "sqlite_master"?
+
+LINE 1: SELECT * FROM customers LIMIT 5
+                      ^
+2025-11-11 19:17:53.087 | INFO     | __main__:main:102 - ========================================
+2025-11-11 19:17:53.087 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 19:17:53.087 | INFO     | __main__:main:104 - ========================================
+2025-11-11 19:17:53.087 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 19:17:53.090 | ERROR    | __main__:verify_dw:63 - Database file not found at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 19:23:00.942 | INFO     | __main__:main:102 - ========================================
+2025-11-11 19:23:00.942 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 19:23:00.942 | INFO     | __main__:main:104 - ========================================
+2025-11-11 19:23:00.942 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 19:23:00.962 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 19:23:00.962 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 19:23:00.973 | ERROR    | __main__:verify_dw:93 - Error verifying 'customers': Catalog Error: Table with name customers does not exist!
+Did you mean "sqlite_master"?
+
+LINE 1: SELECT * FROM customers LIMIT 5
+                      ^
+2025-11-11 19:23:53.004 | INFO     | __main__:main:102 - ========================================
+2025-11-11 19:23:53.004 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 19:23:53.004 | INFO     | __main__:main:104 - ========================================
+2025-11-11 19:23:53.004 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 19:23:53.014 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 19:23:53.016 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 19:23:53.026 | ERROR    | __main__:verify_dw:93 - Error verifying 'customers': Catalog Error: Table with name customers does not exist!
+Did you mean "sqlite_master"?
+
+LINE 1: SELECT * FROM customers LIMIT 5
+                      ^
+2025-11-11 19:24:01.004 | INFO     | __main__:main:102 - ========================================
+2025-11-11 19:24:01.004 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 19:24:01.004 | INFO     | __main__:main:104 - ========================================
+2025-11-11 19:24:01.006 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 19:24:01.018 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 19:24:01.018 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers_cleanedwithScrubber ---
+2025-11-11 19:24:01.027 | ERROR    | __main__:verify_dw:93 - Error verifying 'customers_cleanedwithScrubber': Catalog Error: Table with name customers_cleanedwithScrubber does not exist!
+Did you mean "sqlite_master"?
+
+LINE 1: SELECT * FROM customers_cleanedwithScrubber LIMIT 5
+                      ^
+2025-11-11 19:24:40.901 | INFO     | __main__:main:102 - ========================================
+2025-11-11 19:24:40.901 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 19:24:40.901 | INFO     | __main__:main:104 - ========================================
+2025-11-11 19:24:40.901 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 19:24:40.917 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 19:24:40.917 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 19:24:40.936 | ERROR    | __main__:verify_dw:93 - Error verifying 'customers': Catalog Error: Table with name customers does not exist!
+Did you mean "sqlite_master"?
+
+LINE 1: SELECT * FROM customers LIMIT 5
+                      ^
+2025-11-11 19:45:42.827 | INFO     | __main__:main:193 - ========================================
+2025-11-11 19:45:42.833 | INFO     | __main__:main:194 - Starting: create_dw_duckdb.py
+2025-11-11 19:45:42.833 | INFO     | __main__:main:195 - ========================================
+2025-11-11 19:45:42.835 | INFO     | __main__:main:196 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 19:45:42.835 | INFO     | __main__:main:197 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 19:45:42.835 | INFO     | __main__:main:198 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 19:45:42.835 | INFO     | __main__:main:199 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 19:45:42.838 | INFO     | __main__:main:200 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 19:45:42.838 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 19:45:42.838 | ERROR    | __main__:create_dw:79 - No .sql files in C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create. Please add schema files before running.
+2025-11-11 19:50:03.916 | INFO     | __main__:main:193 - ========================================
+2025-11-11 19:50:03.916 | INFO     | __main__:main:194 - Starting: create_dw_duckdb.py
+2025-11-11 19:50:03.916 | INFO     | __main__:main:195 - ========================================
+2025-11-11 19:50:03.916 | INFO     | __main__:main:196 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 19:50:03.916 | INFO     | __main__:main:197 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 19:50:03.916 | INFO     | __main__:main:198 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 19:50:03.916 | INFO     | __main__:main:199 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 19:50:03.916 | INFO     | __main__:main:200 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 19:50:03.916 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 19:50:03.916 | ERROR    | __main__:create_dw:79 - No .sql files in C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create. Please add schema files before running.
+2025-11-11 20:00:06.187 | INFO     | __main__:main:193 - ========================================
+2025-11-11 20:00:06.187 | INFO     | __main__:main:194 - Starting: create_dw_duckdb.py
+2025-11-11 20:00:06.187 | INFO     | __main__:main:195 - ========================================
+2025-11-11 20:00:06.187 | INFO     | __main__:main:196 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 20:00:06.187 | INFO     | __main__:main:197 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 20:00:06.187 | INFO     | __main__:main:198 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 20:00:06.187 | INFO     | __main__:main:199 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 20:00:06.187 | INFO     | __main__:main:200 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 20:00:06.187 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 20:00:06.204 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 20:00:06.217 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 20:00:06.222 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 20:00:06.226 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 20:00:06.229 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 20:00:06.238 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 20:00:06.272 | INFO     | __main__:populate_dw:128 - Inserted 200 rows into customers table.
+2025-11-11 20:00:06.272 | ERROR    | __main__:populate_dw:185 - Error populating DuckDB data warehouse: [Errno 2] No such file or directory: 'C:\\Users\\mhajiyev\\projects\\smart-store-mahammadhajiyev\\data\\prepared\\product_prepared.csv'
+2025-11-11 20:01:21.079 | INFO     | __main__:main:193 - ========================================
+2025-11-11 20:01:21.079 | INFO     | __main__:main:194 - Starting: create_dw_duckdb.py
+2025-11-11 20:01:21.079 | INFO     | __main__:main:195 - ========================================
+2025-11-11 20:01:21.079 | INFO     | __main__:main:196 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 20:01:21.079 | INFO     | __main__:main:197 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 20:01:21.079 | INFO     | __main__:main:198 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 20:01:21.079 | INFO     | __main__:main:199 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 20:01:21.079 | INFO     | __main__:main:200 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 20:01:21.091 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 20:01:21.092 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 20:01:21.111 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 20:01:21.114 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 20:01:21.119 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 20:01:21.119 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 20:01:21.127 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 20:01:21.150 | INFO     | __main__:populate_dw:128 - Inserted 200 rows into customers table.
+2025-11-11 20:01:21.160 | INFO     | __main__:populate_dw:146 - Inserted 100 rows into products table.
+2025-11-11 20:01:21.169 | ERROR    | __main__:populate_dw:185 - Error populating DuckDB data warehouse: Constraint Error: PRIMARY KEY or UNIQUE constraint violation: duplicate key "6"
+2025-11-11 20:42:36.769 | INFO     | __main__:main:102 - ========================================
+2025-11-11 20:42:36.769 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 20:42:36.769 | INFO     | __main__:main:104 - ========================================
+2025-11-11 20:42:36.769 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 20:42:36.790 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 20:42:36.790 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 20:42:36.803 | ERROR    | __main__:verify_dw:93 - Error verifying 'customers': Catalog Error: Table with name customers does not exist!
+Did you mean "sqlite_master"?
+
+LINE 1: SELECT * FROM customers LIMIT 5
+                      ^
+2025-11-11 20:48:36.638 | INFO     | __main__:main:102 - ========================================
+2025-11-11 20:48:36.638 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 20:48:36.638 | INFO     | __main__:main:104 - ========================================
+2025-11-11 20:48:36.638 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 20:48:36.661 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales_dbt.duckdb
+2025-11-11 20:48:36.662 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 20:48:36.671 | ERROR    | __main__:verify_dw:93 - Error verifying 'customers': Catalog Error: Table with name customers does not exist!
+Did you mean "sqlite_master"?
+
+LINE 1: SELECT * FROM customers LIMIT 5
+                      ^
+2025-11-11 20:50:33.332 | INFO     | __main__:main:102 - ========================================
+2025-11-11 20:50:33.333 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 20:50:33.333 | INFO     | __main__:main:104 - ========================================
+2025-11-11 20:50:33.333 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 20:50:33.344 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 20:50:33.344 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 20:50:34.202 | INFO     | __main__:verify_dw:86 - Sample data from 'customers':
+  customer_id           name   region   join_date  number_of_purchases shopping_frequency
+0        1000   ROBERT GOMEZ     WEST  2024-02-25                   19            Monthly
+1        1001     JOHN SILVA     EAST  2020-12-01                    2             weekly
+2        1002  MARK MARSHALL  CENTRAL  2020-08-08                   90          Quarterly
+3        1003  DAVID BRENNAN    NORTH  2020-05-21                   17            Monthly
+4        1004  KERRY COLLINS    NORTH  2023-09-12                   39            Monthly
+2025-11-11 20:50:34.203 | INFO     | __main__:verify_dw:90 - Row count for 'customers': 200
+2025-11-11 20:50:34.204 | INFO     | __main__:verify_dw:79 - --- Verifying table: products ---
+2025-11-11 20:50:34.208 | INFO     | __main__:verify_dw:86 - Sample data from 'products':
+  product_id          product_name     category  unit_price  stock_quantity     supplier
+0       2000        ELECTRONICS-BE  ELECTRONICS  969.309998             145   GlobalMart
+1       2001        ELECTRONICS-BE     CLOTHING  412.350006              87  PrimeSource
+2       2002         OFFICE-FAMILY     CLOTHING  866.000000             230    SupplyHub
+3       2003  ELECTRONICS-TRAINING     CLOTHING  385.179993              54   EconoTrade
+4       2004          OFFICE-WHERE         HOME  927.250000             198   GlobalMart
+2025-11-11 20:50:34.209 | INFO     | __main__:verify_dw:90 - Row count for 'products': 100
+2025-11-11 20:50:34.210 | INFO     | __main__:verify_dw:79 - --- Verifying table: sales ---
+2025-11-11 20:50:34.210 | WARNING  | __main__:verify_dw:84 - Table 'sales' is empty.
+2025-11-11 20:50:34.214 | INFO     | __main__:verify_dw:90 - Row count for 'sales': 0
+2025-11-11 20:50:34.217 | INFO     | __main__:verify_dw:98 - Verification complete.
+2025-11-11 20:50:34.217 | INFO     | __main__:main:106 - ========================================
+2025-11-11 20:50:34.217 | INFO     | __main__:main:107 - Finished: verify_dw_dbt.py
+2025-11-11 20:50:34.219 | INFO     | __main__:main:108 - ========================================
+2025-11-11 20:51:50.074 | INFO     | __main__:main:193 - ========================================
+2025-11-11 20:51:50.074 | INFO     | __main__:main:194 - Starting: create_dw_duckdb.py
+2025-11-11 20:51:50.074 | INFO     | __main__:main:195 - ========================================
+2025-11-11 20:51:50.074 | INFO     | __main__:main:196 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 20:51:50.074 | INFO     | __main__:main:197 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 20:51:50.074 | INFO     | __main__:main:198 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 20:51:50.074 | INFO     | __main__:main:199 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 20:51:50.074 | INFO     | __main__:main:200 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 20:51:50.074 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 20:51:50.095 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 20:51:50.104 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 20:51:50.109 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 20:51:50.112 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 20:51:50.113 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 20:51:50.121 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 20:51:50.134 | INFO     | __main__:populate_dw:128 - Inserted 200 rows into customers table.
+2025-11-11 20:51:50.152 | INFO     | __main__:populate_dw:146 - Inserted 100 rows into products table.
+2025-11-11 20:51:50.165 | ERROR    | __main__:populate_dw:185 - Error populating DuckDB data warehouse: Constraint Error: PRIMARY KEY or UNIQUE constraint violation: duplicate key "6"
+2025-11-11 21:03:49.104 | INFO     | __main__:main:102 - ========================================
+2025-11-11 21:03:49.104 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 21:03:49.104 | INFO     | __main__:main:104 - ========================================
+2025-11-11 21:03:49.104 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 21:03:49.121 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:03:49.122 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 21:03:49.431 | INFO     | __main__:verify_dw:86 - Sample data from 'customers':
+  customer_id           name   region   join_date  number_of_purchases shopping_frequency
+0        1000   ROBERT GOMEZ     WEST  2024-02-25                   19            Monthly
+1        1001     JOHN SILVA     EAST  2020-12-01                    2             weekly
+2        1002  MARK MARSHALL  CENTRAL  2020-08-08                   90          Quarterly
+3        1003  DAVID BRENNAN    NORTH  2020-05-21                   17            Monthly
+4        1004  KERRY COLLINS    NORTH  2023-09-12                   39            Monthly
+2025-11-11 21:03:49.431 | INFO     | __main__:verify_dw:90 - Row count for 'customers': 200
+2025-11-11 21:03:49.431 | INFO     | __main__:verify_dw:79 - --- Verifying table: products ---
+2025-11-11 21:03:49.447 | INFO     | __main__:verify_dw:86 - Sample data from 'products':
+  product_id          product_name     category  unit_price  stock_quantity     supplier
+0       2000        ELECTRONICS-BE  ELECTRONICS  969.309998             145   GlobalMart
+1       2001        ELECTRONICS-BE     CLOTHING  412.350006              87  PrimeSource
+2       2002         OFFICE-FAMILY     CLOTHING  866.000000             230    SupplyHub
+3       2003  ELECTRONICS-TRAINING     CLOTHING  385.179993              54   EconoTrade
+4       2004          OFFICE-WHERE         HOME  927.250000             198   GlobalMart
+2025-11-11 21:03:49.447 | INFO     | __main__:verify_dw:90 - Row count for 'products': 100
+2025-11-11 21:03:49.447 | INFO     | __main__:verify_dw:79 - --- Verifying table: sales ---
+2025-11-11 21:03:49.453 | WARNING  | __main__:verify_dw:84 - Table 'sales' is empty.
+2025-11-11 21:03:49.454 | INFO     | __main__:verify_dw:90 - Row count for 'sales': 0
+2025-11-11 21:03:49.457 | INFO     | __main__:verify_dw:98 - Verification complete.
+2025-11-11 21:03:49.458 | INFO     | __main__:main:106 - ========================================
+2025-11-11 21:03:49.458 | INFO     | __main__:main:107 - Finished: verify_dw_dbt.py
+2025-11-11 21:03:49.458 | INFO     | __main__:main:108 - ========================================
+2025-11-11 21:04:29.997 | INFO     | __main__:main:193 - ========================================
+2025-11-11 21:04:29.997 | INFO     | __main__:main:194 - Starting: create_dw_duckdb.py
+2025-11-11 21:04:29.997 | INFO     | __main__:main:195 - ========================================
+2025-11-11 21:04:29.997 | INFO     | __main__:main:196 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:04:29.997 | INFO     | __main__:main:197 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:04:29.997 | INFO     | __main__:main:198 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:04:29.997 | INFO     | __main__:main:199 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:04:29.997 | INFO     | __main__:main:200 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:04:29.997 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:04:30.017 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:04:30.028 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:04:30.028 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:04:30.035 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:04:30.037 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:04:30.043 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:04:30.066 | INFO     | __main__:populate_dw:128 - Inserted 200 rows into customers table.
+2025-11-11 21:04:30.075 | INFO     | __main__:populate_dw:146 - Inserted 100 rows into products table.
+2025-11-11 21:04:30.086 | INFO     | __main__:populate_dw:180 - Inserted 1920 rows into sales table.
+2025-11-11 21:04:30.086 | INFO     | __main__:populate_dw:182 - All tables populated successfully.
+2025-11-11 21:04:30.114 | INFO     | __main__:main:203 - ========================================
+2025-11-11 21:04:30.115 | INFO     | __main__:main:204 - Finished: create_dw_duckdb.py
+2025-11-11 21:04:30.115 | INFO     | __main__:main:205 - ========================================
+2025-11-11 21:04:45.603 | INFO     | __main__:main:102 - ========================================
+2025-11-11 21:04:45.603 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 21:04:45.603 | INFO     | __main__:main:104 - ========================================
+2025-11-11 21:04:45.603 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 21:04:45.609 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:04:45.609 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 21:04:45.949 | INFO     | __main__:verify_dw:86 - Sample data from 'customers':
+  customer_id           name   region   join_date  number_of_purchases shopping_frequency
+0        1000   ROBERT GOMEZ     WEST  2024-02-25                   19            Monthly
+1        1001     JOHN SILVA     EAST  2020-12-01                    2             weekly
+2        1002  MARK MARSHALL  CENTRAL  2020-08-08                   90          Quarterly
+3        1003  DAVID BRENNAN    NORTH  2020-05-21                   17            Monthly
+4        1004  KERRY COLLINS    NORTH  2023-09-12                   39            Monthly
+2025-11-11 21:04:45.949 | INFO     | __main__:verify_dw:90 - Row count for 'customers': 200
+2025-11-11 21:04:45.949 | INFO     | __main__:verify_dw:79 - --- Verifying table: products ---
+2025-11-11 21:04:45.949 | INFO     | __main__:verify_dw:86 - Sample data from 'products':
+  product_id          product_name     category  unit_price  stock_quantity     supplier
+0       2000        ELECTRONICS-BE  ELECTRONICS  969.309998             145   GlobalMart
+1       2001        ELECTRONICS-BE     CLOTHING  412.350006              87  PrimeSource
+2       2002         OFFICE-FAMILY     CLOTHING  866.000000             230    SupplyHub
+3       2003  ELECTRONICS-TRAINING     CLOTHING  385.179993              54   EconoTrade
+4       2004          OFFICE-WHERE         HOME  927.250000             198   GlobalMart
+2025-11-11 21:04:45.949 | INFO     | __main__:verify_dw:90 - Row count for 'products': 100
+2025-11-11 21:04:45.949 | INFO     | __main__:verify_dw:79 - --- Verifying table: sales ---
+2025-11-11 21:04:45.968 | INFO     | __main__:verify_dw:86 - Sample data from 'sales':
+   sale_id        date customer_id product_id store_id campaign_id  sales_amount
+0        1  2025-05-04      1034.0     2059.0    402.0         0.0   2048.199951
+1        2  2025-05-04      1066.0     2048.0    403.0         1.0    321.869995
+2        3  2025-05-04      1116.0     2041.0    403.0         3.0   3216.840088
+3        4  2025-05-04      1071.0     2096.0    404.0         2.0   1613.229980
+4        5  2025-05-04      1020.0     2060.0    401.0         0.0    408.380005
+2025-11-11 21:04:45.969 | INFO     | __main__:verify_dw:90 - Row count for 'sales': 1920
+2025-11-11 21:04:45.971 | INFO     | __main__:verify_dw:98 - Verification complete.
+2025-11-11 21:04:45.971 | INFO     | __main__:main:106 - ========================================
+2025-11-11 21:04:45.971 | INFO     | __main__:main:107 - Finished: verify_dw_dbt.py
+2025-11-11 21:04:45.971 | INFO     | __main__:main:108 - ========================================
+2025-11-11 21:18:59.489 | INFO     | __main__:main:193 - ========================================
+2025-11-11 21:18:59.489 | INFO     | __main__:main:194 - Starting: create_dw_duckdb.py
+2025-11-11 21:18:59.489 | INFO     | __main__:main:195 - ========================================
+2025-11-11 21:18:59.489 | INFO     | __main__:main:196 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:18:59.489 | INFO     | __main__:main:197 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:18:59.489 | INFO     | __main__:main:198 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:18:59.489 | INFO     | __main__:main:199 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:18:59.489 | INFO     | __main__:main:200 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:18:59.489 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:18:59.515 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:18:59.520 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:18:59.524 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:18:59.530 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:18:59.530 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:18:59.538 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:18:59.570 | INFO     | __main__:populate_dw:128 - Inserted 200 rows into customers table.
+2025-11-11 21:18:59.579 | INFO     | __main__:populate_dw:146 - Inserted 100 rows into products table.
+2025-11-11 21:18:59.608 | INFO     | __main__:populate_dw:180 - Inserted 1920 rows into sales table.
+2025-11-11 21:18:59.608 | INFO     | __main__:populate_dw:182 - All tables populated successfully.
+2025-11-11 21:18:59.646 | INFO     | __main__:main:203 - ========================================
+2025-11-11 21:18:59.647 | INFO     | __main__:main:204 - Finished: create_dw_duckdb.py
+2025-11-11 21:18:59.647 | INFO     | __main__:main:205 - ========================================
+2025-11-11 21:19:16.912 | INFO     | __main__:main:102 - ========================================
+2025-11-11 21:19:16.912 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 21:19:16.912 | INFO     | __main__:main:104 - ========================================
+2025-11-11 21:19:16.912 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 21:19:16.925 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:19:16.926 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 21:19:17.254 | INFO     | __main__:verify_dw:86 - Sample data from 'customers':
+  customer_id           name   region   join_date  number_of_purchases shopping_frequency
+0        1000   ROBERT GOMEZ     WEST  2024-02-25                   19            Monthly
+1        1001     JOHN SILVA     EAST  2020-12-01                    2             weekly
+2        1002  MARK MARSHALL  CENTRAL  2020-08-08                   90          Quarterly
+3        1003  DAVID BRENNAN    NORTH  2020-05-21                   17            Monthly
+4        1004  KERRY COLLINS    NORTH  2023-09-12                   39            Monthly
+2025-11-11 21:19:17.254 | INFO     | __main__:verify_dw:90 - Row count for 'customers': 200
+2025-11-11 21:19:17.254 | INFO     | __main__:verify_dw:79 - --- Verifying table: products ---
+2025-11-11 21:19:17.270 | INFO     | __main__:verify_dw:86 - Sample data from 'products':
+  product_id          product_name     category  unit_price  stock_quantity     supplier
+0       2000        ELECTRONICS-BE  ELECTRONICS  969.309998             145   GlobalMart
+1       2001        ELECTRONICS-BE     CLOTHING  412.350006              87  PrimeSource
+2       2002         OFFICE-FAMILY     CLOTHING  866.000000             230    SupplyHub
+3       2003  ELECTRONICS-TRAINING     CLOTHING  385.179993              54   EconoTrade
+4       2004          OFFICE-WHERE         HOME  927.250000             198   GlobalMart
+2025-11-11 21:19:17.270 | INFO     | __main__:verify_dw:90 - Row count for 'products': 100
+2025-11-11 21:19:17.275 | INFO     | __main__:verify_dw:79 - --- Verifying table: sales ---
+2025-11-11 21:19:17.278 | INFO     | __main__:verify_dw:86 - Sample data from 'sales':
+   sale_id        date customer_id product_id store_id campaign_id  sales_amount
+0        1  2025-05-04      1034.0     2059.0    402.0         0.0   2048.199951
+1        2  2025-05-04      1066.0     2048.0    403.0         1.0    321.869995
+2        3  2025-05-04      1116.0     2041.0    403.0         3.0   3216.840088
+3        4  2025-05-04      1071.0     2096.0    404.0         2.0   1613.229980
+4        5  2025-05-04      1020.0     2060.0    401.0         0.0    408.380005
+2025-11-11 21:19:17.281 | INFO     | __main__:verify_dw:90 - Row count for 'sales': 1920
+2025-11-11 21:19:17.284 | INFO     | __main__:verify_dw:98 - Verification complete.
+2025-11-11 21:19:17.285 | INFO     | __main__:main:106 - ========================================
+2025-11-11 21:19:17.285 | INFO     | __main__:main:107 - Finished: verify_dw_dbt.py
+2025-11-11 21:19:17.285 | INFO     | __main__:main:108 - ========================================
+2025-11-11 21:19:47.239 | INFO     | __main__:main:102 - ========================================
+2025-11-11 21:19:47.239 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 21:19:47.239 | INFO     | __main__:main:104 - ========================================
+2025-11-11 21:19:47.239 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 21:19:47.259 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:19:47.259 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 21:19:47.588 | INFO     | __main__:verify_dw:86 - Sample data from 'customers':
+  customer_id           name   region   join_date  number_of_purchases shopping_frequency
+0        1000   ROBERT GOMEZ     WEST  2024-02-25                   19            Monthly
+1        1001     JOHN SILVA     EAST  2020-12-01                    2             weekly
+2        1002  MARK MARSHALL  CENTRAL  2020-08-08                   90          Quarterly
+3        1003  DAVID BRENNAN    NORTH  2020-05-21                   17            Monthly
+4        1004  KERRY COLLINS    NORTH  2023-09-12                   39            Monthly
+2025-11-11 21:19:47.588 | INFO     | __main__:verify_dw:90 - Row count for 'customers': 200
+2025-11-11 21:19:47.588 | INFO     | __main__:verify_dw:79 - --- Verifying table: products ---
+2025-11-11 21:19:47.604 | INFO     | __main__:verify_dw:86 - Sample data from 'products':
+  product_id          product_name     category  unit_price  stock_quantity     supplier
+0       2000        ELECTRONICS-BE  ELECTRONICS  969.309998             145   GlobalMart
+1       2001        ELECTRONICS-BE     CLOTHING  412.350006              87  PrimeSource
+2       2002         OFFICE-FAMILY     CLOTHING  866.000000             230    SupplyHub
+3       2003  ELECTRONICS-TRAINING     CLOTHING  385.179993              54   EconoTrade
+4       2004          OFFICE-WHERE         HOME  927.250000             198   GlobalMart
+2025-11-11 21:19:47.605 | INFO     | __main__:verify_dw:90 - Row count for 'products': 100
+2025-11-11 21:19:47.605 | INFO     | __main__:verify_dw:79 - --- Verifying table: sales ---
+2025-11-11 21:19:47.611 | INFO     | __main__:verify_dw:86 - Sample data from 'sales':
+   sale_id        date customer_id product_id store_id campaign_id  sales_amount
+0        1  2025-05-04      1034.0     2059.0    402.0         0.0   2048.199951
+1        2  2025-05-04      1066.0     2048.0    403.0         1.0    321.869995
+2        3  2025-05-04      1116.0     2041.0    403.0         3.0   3216.840088
+3        4  2025-05-04      1071.0     2096.0    404.0         2.0   1613.229980
+4        5  2025-05-04      1020.0     2060.0    401.0         0.0    408.380005
+2025-11-11 21:19:47.613 | INFO     | __main__:verify_dw:90 - Row count for 'sales': 1920
+2025-11-11 21:19:47.615 | INFO     | __main__:verify_dw:98 - Verification complete.
+2025-11-11 21:19:47.615 | INFO     | __main__:main:106 - ========================================
+2025-11-11 21:19:47.615 | INFO     | __main__:main:107 - Finished: verify_dw_dbt.py
+2025-11-11 21:19:47.616 | INFO     | __main__:main:108 - ========================================
+2025-11-11 21:20:01.220 | INFO     | __main__:main:193 - ========================================
+2025-11-11 21:20:01.221 | INFO     | __main__:main:194 - Starting: create_dw_duckdb.py
+2025-11-11 21:20:01.221 | INFO     | __main__:main:195 - ========================================
+2025-11-11 21:20:01.221 | INFO     | __main__:main:196 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:20:01.221 | INFO     | __main__:main:197 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:20:01.221 | INFO     | __main__:main:198 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:20:01.221 | INFO     | __main__:main:199 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:20:01.222 | INFO     | __main__:main:200 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:20:01.222 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:20:01.222 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:20:01.243 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:20:01.247 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:20:01.250 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:20:01.252 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:20:01.259 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:20:01.278 | INFO     | __main__:populate_dw:128 - Inserted 200 rows into customers table.
+2025-11-11 21:20:01.292 | INFO     | __main__:populate_dw:146 - Inserted 100 rows into products table.
+2025-11-11 21:20:01.302 | ERROR    | __main__:populate_dw:185 - Error populating DuckDB data warehouse: Binder Error: table sales has 9 columns but 7 values were supplied
+2025-11-11 21:25:29.404 | INFO     | __main__:main:193 - ========================================
+2025-11-11 21:25:29.404 | INFO     | __main__:main:194 - Starting: create_dw_duckdb.py
+2025-11-11 21:25:29.404 | INFO     | __main__:main:195 - ========================================
+2025-11-11 21:25:29.404 | INFO     | __main__:main:196 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:25:29.404 | INFO     | __main__:main:197 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:25:29.404 | INFO     | __main__:main:198 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:25:29.404 | INFO     | __main__:main:199 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:25:29.404 | INFO     | __main__:main:200 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:25:29.404 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:25:29.421 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:25:29.429 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:25:29.432 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:25:29.434 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:25:29.435 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:25:29.442 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:25:29.464 | INFO     | __main__:populate_dw:128 - Inserted 200 rows into customers table.
+2025-11-11 21:25:29.476 | INFO     | __main__:populate_dw:146 - Inserted 100 rows into products table.
+2025-11-11 21:25:29.483 | ERROR    | __main__:populate_dw:185 - Error populating DuckDB data warehouse: Binder Error: table sales has 9 columns but 7 values were supplied
+2025-11-11 21:32:08.182 | INFO     | __main__:main:193 - ========================================
+2025-11-11 21:32:08.182 | INFO     | __main__:main:194 - Starting: create_dw_duckdb.py
+2025-11-11 21:32:08.182 | INFO     | __main__:main:195 - ========================================
+2025-11-11 21:32:08.182 | INFO     | __main__:main:196 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:32:08.182 | INFO     | __main__:main:197 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:32:08.182 | INFO     | __main__:main:198 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:32:08.182 | INFO     | __main__:main:199 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:32:08.182 | INFO     | __main__:main:200 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:32:08.182 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:32:08.198 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:32:08.204 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:32:08.212 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:32:08.216 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:32:08.219 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:32:08.224 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:32:08.249 | INFO     | __main__:populate_dw:128 - Inserted 200 rows into customers table.
+2025-11-11 21:32:08.250 | INFO     | __main__:populate_dw:146 - Inserted 100 rows into products table.
+2025-11-11 21:32:08.266 | ERROR    | __main__:populate_dw:185 - Error populating DuckDB data warehouse: Binder Error: table sales has 9 columns but 7 values were supplied
+2025-11-11 21:40:40.301 | INFO     | __main__:main:199 - ========================================
+2025-11-11 21:40:40.301 | INFO     | __main__:main:200 - Starting: create_dw_duckdb.py
+2025-11-11 21:40:40.301 | INFO     | __main__:main:201 - ========================================
+2025-11-11 21:40:40.301 | INFO     | __main__:main:202 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:40:40.301 | INFO     | __main__:main:203 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:40:40.301 | INFO     | __main__:main:204 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:40:40.301 | INFO     | __main__:main:205 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:40:40.301 | INFO     | __main__:main:206 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:40:40.301 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:40:40.329 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:40:40.338 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:40:40.344 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:40:40.349 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:40:40.351 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:40:40.359 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:40:40.382 | INFO     | __main__:populate_dw:130 - Inserted 200 rows into customers table.
+2025-11-11 21:40:40.395 | INFO     | __main__:populate_dw:150 - Inserted 100 rows into products table.
+2025-11-11 21:40:40.405 | ERROR    | __main__:populate_dw:191 - Error populating DuckDB data warehouse: Binder Error: table sales has 9 columns but 7 values were supplied
+2025-11-11 21:42:35.109 | INFO     | __main__:main:199 - ========================================
+2025-11-11 21:42:35.110 | INFO     | __main__:main:200 - Starting: create_dw_duckdb.py
+2025-11-11 21:42:35.110 | INFO     | __main__:main:201 - ========================================
+2025-11-11 21:42:35.110 | INFO     | __main__:main:202 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:42:35.110 | INFO     | __main__:main:203 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:42:35.110 | INFO     | __main__:main:204 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:42:35.110 | INFO     | __main__:main:205 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:42:35.110 | INFO     | __main__:main:206 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:42:35.110 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:42:35.124 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:42:35.136 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:42:35.140 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:42:35.142 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:42:35.144 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:42:35.153 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:42:35.178 | INFO     | __main__:populate_dw:130 - Inserted 200 rows into customers table.
+2025-11-11 21:42:35.182 | INFO     | __main__:populate_dw:150 - Inserted 100 rows into products table.
+2025-11-11 21:42:35.196 | ERROR    | __main__:populate_dw:191 - Error populating DuckDB data warehouse: Binder Error: table sales has 9 columns but 7 values were supplied
+2025-11-11 21:44:22.735 | INFO     | __main__:main:199 - ========================================
+2025-11-11 21:44:22.735 | INFO     | __main__:main:200 - Starting: create_dw_duckdb.py
+2025-11-11 21:44:22.735 | INFO     | __main__:main:201 - ========================================
+2025-11-11 21:44:22.735 | INFO     | __main__:main:202 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:44:22.735 | INFO     | __main__:main:203 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:44:22.735 | INFO     | __main__:main:204 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:44:22.735 | INFO     | __main__:main:205 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:44:22.735 | INFO     | __main__:main:206 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:44:22.735 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:44:22.735 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:44:22.761 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:44:22.764 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:44:22.764 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:44:22.769 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:44:22.775 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:44:22.800 | INFO     | __main__:populate_dw:130 - Inserted 200 rows into customers table.
+2025-11-11 21:44:22.810 | INFO     | __main__:populate_dw:150 - Inserted 100 rows into products table.
+2025-11-11 21:44:22.826 | ERROR    | __main__:populate_dw:191 - Error populating DuckDB data warehouse: Binder Error: table sales has 9 columns but 7 values were supplied
+2025-11-11 21:45:38.705 | INFO     | __main__:main:199 - ========================================
+2025-11-11 21:45:38.705 | INFO     | __main__:main:200 - Starting: create_dw_duckdb.py
+2025-11-11 21:45:38.705 | INFO     | __main__:main:201 - ========================================
+2025-11-11 21:45:38.705 | INFO     | __main__:main:202 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:45:38.705 | INFO     | __main__:main:203 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:45:38.705 | INFO     | __main__:main:204 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:45:38.705 | INFO     | __main__:main:205 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:45:38.705 | INFO     | __main__:main:206 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:45:38.705 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:45:38.720 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:45:38.731 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:45:38.734 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:45:38.734 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:45:38.738 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:45:38.743 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:45:38.765 | INFO     | __main__:populate_dw:130 - Inserted 200 rows into customers table.
+2025-11-11 21:45:38.776 | INFO     | __main__:populate_dw:150 - Inserted 100 rows into products table.
+2025-11-11 21:45:38.790 | ERROR    | __main__:populate_dw:191 - Error populating DuckDB data warehouse: Binder Error: table sales has 9 columns but 7 values were supplied
+2025-11-11 21:45:46.282 | INFO     | __main__:main:199 - ========================================
+2025-11-11 21:45:46.282 | INFO     | __main__:main:200 - Starting: create_dw_duckdb.py
+2025-11-11 21:45:46.282 | INFO     | __main__:main:201 - ========================================
+2025-11-11 21:45:46.282 | INFO     | __main__:main:202 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:45:46.282 | INFO     | __main__:main:203 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:45:46.282 | INFO     | __main__:main:204 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:45:46.282 | INFO     | __main__:main:205 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:45:46.282 | INFO     | __main__:main:206 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:45:46.282 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:45:46.282 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:45:46.305 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:45:46.309 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:45:46.311 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:45:46.313 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:45:46.313 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:45:46.346 | INFO     | __main__:populate_dw:130 - Inserted 200 rows into customers table.
+2025-11-11 21:45:46.348 | INFO     | __main__:populate_dw:150 - Inserted 100 rows into products table.
+2025-11-11 21:45:46.363 | INFO     | __main__:populate_dw:186 - Inserted 1920 rows into sales table.
+2025-11-11 21:45:46.363 | INFO     | __main__:populate_dw:188 - All tables populated successfully.
+2025-11-11 21:45:46.395 | INFO     | __main__:main:209 - ========================================
+2025-11-11 21:45:46.395 | INFO     | __main__:main:210 - Finished: create_dw_duckdb.py
+2025-11-11 21:45:46.395 | INFO     | __main__:main:211 - ========================================
+2025-11-11 21:48:46.597 | INFO     | __main__:main:199 - ========================================
+2025-11-11 21:48:46.597 | INFO     | __main__:main:200 - Starting: create_dw_duckdb.py
+2025-11-11 21:48:46.597 | INFO     | __main__:main:201 - ========================================
+2025-11-11 21:48:46.597 | INFO     | __main__:main:202 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:48:46.597 | INFO     | __main__:main:203 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:48:46.597 | INFO     | __main__:main:204 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:48:46.598 | INFO     | __main__:main:205 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:48:46.598 | INFO     | __main__:main:206 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:48:46.598 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:48:46.601 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:48:46.616 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:48:46.623 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:48:46.626 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:48:46.627 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:48:46.635 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:48:46.661 | INFO     | __main__:populate_dw:130 - Inserted 200 rows into customers table.
+2025-11-11 21:48:46.662 | INFO     | __main__:populate_dw:150 - Inserted 100 rows into products table.
+2025-11-11 21:48:46.679 | ERROR    | __main__:populate_dw:191 - Error populating DuckDB data warehouse: Binder Error: table sales has 9 columns but 7 values were supplied
+2025-11-11 21:52:36.090 | INFO     | __main__:main:201 - ========================================
+2025-11-11 21:52:36.090 | INFO     | __main__:main:202 - Starting: create_dw_duckdb.py
+2025-11-11 21:52:36.090 | INFO     | __main__:main:203 - ========================================
+2025-11-11 21:52:36.090 | INFO     | __main__:main:204 - Root:   C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev
+2025-11-11 21:52:36.090 | INFO     | __main__:main:205 - Scripts:C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\src\dw_create
+2025-11-11 21:52:36.090 | INFO     | __main__:main:206 - SQL:    C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create
+2025-11-11 21:52:36.090 | INFO     | __main__:main:207 - Input:  C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\data\prepared
+2025-11-11 21:52:36.090 | INFO     | __main__:main:208 - Output: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:52:36.090 | INFO     | __main__:create_dw:75 - Creating data warehouse using DuckDB...
+2025-11-11 21:52:36.110 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\00_drop_all_tables.sql
+2025-11-11 21:52:36.120 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\10_create_customers.sql
+2025-11-11 21:52:36.122 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\20_create_products.sql
+2025-11-11 21:52:36.122 | INFO     | __main__:run_sql_file:64 - RUN: C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\sql\dw_create\91_create_sales.sql
+2025-11-11 21:52:36.129 | INFO     | __main__:create_dw:95 - DuckDB warehouse created successfully.
+2025-11-11 21:52:36.136 | INFO     | __main__:populate_dw:107 - Populating DuckDB data warehouse from prepared CSVs...
+2025-11-11 21:52:36.159 | INFO     | __main__:populate_dw:130 - Inserted 200 rows into customers table.
+2025-11-11 21:52:36.171 | INFO     | __main__:populate_dw:150 - Inserted 100 rows into products table.
+2025-11-11 21:52:36.189 | INFO     | __main__:populate_dw:188 - Inserted 1920 rows into sales table.
+2025-11-11 21:52:36.189 | INFO     | __main__:populate_dw:190 - All tables populated successfully.
+2025-11-11 21:52:36.221 | INFO     | __main__:main:211 - ========================================
+2025-11-11 21:52:36.221 | INFO     | __main__:main:212 - Finished: create_dw_duckdb.py
+2025-11-11 21:52:36.222 | INFO     | __main__:main:213 - ========================================
+2025-11-11 21:53:37.876 | INFO     | __main__:main:102 - ========================================
+2025-11-11 21:53:37.876 | INFO     | __main__:main:103 - Starting: verify_dw_dbt.py
+2025-11-11 21:53:37.876 | INFO     | __main__:main:104 - ========================================
+2025-11-11 21:53:37.890 | INFO     | __main__:verify_dw:59 - Verifying DuckDB Data Warehouse...
+2025-11-11 21:53:37.900 | INFO     | __main__:verify_dw:69 - Connected to database at C:\Users\mhajiyev\projects\smart-store-mahammadhajiyev\dw\smart_sales.duckdb
+2025-11-11 21:53:37.900 | INFO     | __main__:verify_dw:79 - --- Verifying table: customers ---
+2025-11-11 21:53:38.225 | INFO     | __main__:verify_dw:86 - Sample data from 'customers':
+  customer_id           name   region   join_date  number_of_purchases shopping_frequency
+0        1000   ROBERT GOMEZ     WEST  2024-02-25                   19            Monthly
+1        1001     JOHN SILVA     EAST  2020-12-01                    2             weekly
+2        1002  MARK MARSHALL  CENTRAL  2020-08-08                   90          Quarterly
+3        1003  DAVID BRENNAN    NORTH  2020-05-21                   17            Monthly
+4        1004  KERRY COLLINS    NORTH  2023-09-12                   39            Monthly
+2025-11-11 21:53:38.225 | INFO     | __main__:verify_dw:90 - Row count for 'customers': 200
+2025-11-11 21:53:38.225 | INFO     | __main__:verify_dw:79 - --- Verifying table: products ---
+2025-11-11 21:53:38.225 | INFO     | __main__:verify_dw:86 - Sample data from 'products':
+  product_id          product_name     category  unit_price  stock_quantity     supplier
+0       2000        ELECTRONICS-BE  ELECTRONICS  969.309998             145   GlobalMart
+1       2001        ELECTRONICS-BE     CLOTHING  412.350006              87  PrimeSource
+2       2002         OFFICE-FAMILY     CLOTHING  866.000000             230    SupplyHub
+3       2003  ELECTRONICS-TRAINING     CLOTHING  385.179993              54   EconoTrade
+4       2004          OFFICE-WHERE         HOME  927.250000             198   GlobalMart
+2025-11-11 21:53:38.225 | INFO     | __main__:verify_dw:90 - Row count for 'products': 100
+2025-11-11 21:53:38.242 | INFO     | __main__:verify_dw:79 - --- Verifying table: sales ---
+2025-11-11 21:53:38.249 | INFO     | __main__:verify_dw:86 - Sample data from 'sales':
+   sale_id        date customer_id product_id store_id campaign_id  sales_amount   shipping state
+0        1  2025-05-04      1034.0     2059.0    402.0         0.0   2048.199951  89.760002    KS
+1        2  2025-05-04      1066.0     2048.0    403.0         1.0    321.869995  71.629997    OK
+2        3  2025-05-04      1116.0     2041.0    403.0         3.0   3216.840088  25.450001    AR
+3        4  2025-05-04      1071.0     2096.0    404.0         2.0   1613.229980  97.449997    OK
+4        5  2025-05-04      1020.0     2060.0    401.0         0.0    408.380005  67.820000    IL
+2025-11-11 21:53:38.251 | INFO     | __main__:verify_dw:90 - Row count for 'sales': 1920
+2025-11-11 21:53:38.254 | INFO     | __main__:verify_dw:98 - Verification complete.
+2025-11-11 21:53:38.254 | INFO     | __main__:main:106 - ========================================
+2025-11-11 21:53:38.254 | INFO     | __main__:main:107 - Finished: verify_dw_dbt.py
+2025-11-11 21:53:38.254 | INFO     | __main__:main:108 - ========================================

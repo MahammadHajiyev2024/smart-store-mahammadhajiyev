@@ -400,17 +400,17 @@ def main():
     files_to_process = [
         {
             'input': 'sales_data.csv',
-            'output': 'sales_cleanedwithScrubber.csv',
+            'output': 'sales_prepared.csv',
             'cleaner': clean_sales_data,
         },
         {
             'input': 'customers_data.csv',
-            'output': 'customers_cleanedwithScrubber.csv',
+            'output': 'customers_prepared.csv',
             'cleaner': clean_customers_data,
         },
         {
             'input': 'products_data.csv',
-            'output': 'products_cleanedwithScrubber.csv',
+            'output': 'products_prepared.csv',
             'cleaner': clean_products_data,
         },
     ]
