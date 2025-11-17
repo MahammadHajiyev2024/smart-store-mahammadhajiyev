@@ -148,40 +148,84 @@ Before starting a new session, remember to do a `git pull` and keep your tools u
 
 Each time forward progress is made, remember to git add-commit-push.
 
+---
+
+# 🏗️ Data Warehouse – Design, Schema, and ETL Workflow
+
+This section documents the creation of the Smart Store Data Warehouse built for P4.
+It includes the star schema design, SQL structures, ETL pipeline, and verification steps.
+
+## ⭐ 1. Data Warehouse Objectives
+
+- Provide a structured star schema for analytics
+- Centralize the cleaned datasets from `data/prepared/`
+- Improve query performance and simplify BI workflows
+- Support future dashboards and KPI calculations
 
 ---
 
-## ⚡ Quick Rundown of the Data Cleaning Process
+## 🧠 2. Warehouse Schema (Star Schema)
 
-Here’s a high-level view of how the Smart Store data pipeline works:
+The warehouse contains one fact table and two dimension tables.
 
-1. **Load Raw Data**
-   - All CSV files are read from `data/raw/`.
-   - Example files: `sales_data.csv`, `customers_data.csv`, `products_data.csv`.
+### 🟩 Dimension Tables
+**customer**
+- customer_id (PK)
+- name
+- region
+- join_date
+- number_of_purchases
+- shopping_frequency
 
-2. **Initialize DataScrubber**
-   - Each dataset is wrapped in a `DataScrubber` instance.
-   - Responsible for all cleaning operations.
-
-3. **Data Cleaning Steps**
-   - **Remove duplicates** – ensures no repeated rows.
-   - **Normalize strings** – trims whitespace and converts to uppercase.
-   - **Convert types** – numeric fields coerced, dates parsed.
-   - **Handle special values** – e.g., `'free'` → `0`, `'?'` → `NaN`.
-   - **Fill missing values** – medians or defaults applied.
-   - **Drop critical missing rows** – removes rows missing essential keys (like `TransactionID`, `CustomerID`).
-   - **Remove outliers** – using IQR or logical limits (e.g., negative prices or quantities).
-
-4. **Post-Processing**
-   - Sort datasets by primary key (`TransactionID`, `CustomerID`, `ProductID`).
-   - Log shape and number of rows removed.
-   - Format final output consistently.
-
-5. **Save Cleaned Data**
-   - Cleaned CSVs are written to `data/prepared/`.
-   - Filenames are automatically normalized and suffixed with `_cleanedwithScrubber`.
-
-6. **Logging**
-   - All steps are logged using `utils_logger` for transparency and debugging.
+**product**
+ - product_id (PK),
+ - product_name
+ - category
+ - unit_price
+ - stock_quantity
+ - supplier
+### Fact Table
+**sale**
+- sale_id (PK)
+- customer_id (FK → customer.customer_id)
+- product_id (FK → product.product_id)
+- sale_amount
+- sale_date
+- shipping
+- state
 
 ---
+
+## 📐 3. SQL Schema Used in the Warehouse
+
+```sql
+CREATE TABLE IF NOT EXISTS customer (
+   customer_id INTEGER PRIMARY KEY,
+   name TEXT,
+   region TEXT,
+   join_date TEXT,
+   number_of_purchases INTEGER,
+   shopping_frequency TEXT
+);
+
+CREATE TABLE IF NOT EXISTS product (
+   product_id INTEGER PRIMARY KEY,
+   product_name TEXT,
+   category TEXT,
+   unit_price REAL,
+   stock_quantity INTEGER,
+   supplier TEXT
+);
+
+CREATE TABLE IF NOT EXISTS sale (
+   sale_id INTEGER PRIMARY KEY,
+   customer_id INTEGER,
+   product_id INTEGER,
+   sale_amount REAL,
+   sale_date TEXT,
+   shipping REAL,
+   state TEXT,
+   FOREIGN KEY (customer_id) REFERENCES customer(customer_id),
+   FOREIGN KEY (product_id) REFERENCES product(product_id)
+);
+
