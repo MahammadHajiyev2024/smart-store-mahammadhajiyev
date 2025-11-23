@@ -229,3 +229,26 @@ CREATE TABLE IF NOT EXISTS sale (
    FOREIGN KEY (product_id) REFERENCES product(product_id)
 );
 
+## 4. Reporting in Power BI
+
+Below is the summary of the slicing, dicing, and drilldown decisions used in the Power BI report.
+
+### Slicing
+**Field used:** `customer.join_date`
+**Rationale:**
+The `sale_date` column contained only one unique date, which made it ineffective as a slicer. Using `join_date` enabled meaningful time-based filtering and allowed users to adjust the timeline of the report.
+
+### Dicing
+**Fields used:**
+- `product.category`
+- `product.supplier`
+- `product.stock_quantity`
+
+**Rationale:**
+These product attributes allowed for effective data segmentation. A matrix using these fields provided clarity on inventory levels across categories and suppliers, helping identify distribution patterns.
+
+### Drilldown
+**Field used:** `customer.join_date`
+**Rationale:**
+`join_date` supports a full hierarchy (Year → Quarter → Month), enabling users to drill deeper into customer trends over time. This created a more interactive and insightful analysis experience.
+
