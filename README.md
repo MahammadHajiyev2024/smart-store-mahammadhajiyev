@@ -276,6 +276,6 @@ The `olap/` folder contains a single module: `cube.py`. This file:
 - Hierarchical drilldown from **Category → Product Name**.
 - Visual exploration of product performance.
 
-![images](image.png)
 
-
+### Power BI Dashboard
+![Dashboard Screenshot](images/image.png)
