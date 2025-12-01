@@ -228,7 +228,7 @@ CREATE TABLE IF NOT EXISTS sale (
    FOREIGN KEY (customer_id) REFERENCES customer(customer_id),
    FOREIGN KEY (product_id) REFERENCES product(product_id)
 );
-
+```
 ## 4. Reporting in Power BI
 
 Below is the summary of the slicing, dicing, and drilldown decisions used in the Power BI report.
