@@ -252,3 +252,30 @@ These product attributes allowed for effective data segmentation. A matrix using
 **Rationale:**
 `join_date` supports a full hierarchy (Year → Quarter → Month), enabling users to drill deeper into customer trends over time. This created a more interactive and insightful analysis experience.
 
+## 5. OLAP cubes and dimensions
+
+### OLAP Folder Description
+The `olap/` folder contains a single module: `cube.py`. This file:
+- Loads the transaction dataset.
+- Groups records by `ProductID`.
+- Aggregates metrics such as total sales.
+- Produces a precomputed cube that can be exported as CSV for downstream analysis.
+
+
+### **Process**
+1. Used Python (Pandas + custom OLAP script) to build a cube aggregated by Product ID.
+2. Exported cube as CSV.
+3. Imported cube into Power BI and created relationships with product and region tables.
+4. Designed multiple visuals including slicers, hierarchy drilldowns, and bar charts.
+
+
+### **Results**
+- A functioning OLAP-like dataset generated in Python.
+- A Power BI report enabling:
+- Filtering by **Region**, **Unit Price**, and **Stock Levels**.
+- Hierarchical drilldown from **Category → Product Name**.
+- Visual exploration of product performance.
+
+![images](image.png)
+
+
