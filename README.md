@@ -278,4 +278,61 @@ The `olap/` folder contains a single module: `cube.py`. This file:
 
 
 ### Power BI Dashboard
+
+## Section 1. Business Goal
+**Goal:** Build a dashboard for the sales team to identify sales performance of products in the market by region, unit price, and stock availability.
+
+**Reason for Choosing Goal:**
+As part of my job, I create dashboards that provide KPIs to stakeholders. While visuals often answer specific questions, most insights emerge from exploring dashboards and data trends.
+
+## Section 2. Data Source
+- Sales Fact table
+- Customer table
+- Product table
+
+## Section 3. Tools Used
+- Microsoft Excel / Power BI
+- Python
+- Visualization libraries in Python
+
+## Section 4. Workflow & Logic
+1. Collect and clean sales and stock data from csv files.
+2. Define descriptive dimensions and numeric metrics.
+3. Aggregate sales metrics (sum) by product, region, and category.
+4. Create calculated columns:
+   - Unit price level
+   - Stock level
+5. Design dashboard with:
+   - Column charts for product performance
+   - Maps for regional insights
+   - Slicers for filtering by category, region, stock, and price
+6. Enable drill-down to explore deeper insights into product categories.
+
+## Section 5. Results
+**Narrative:**
+The dashboard allows the sales team to monitor product performance across regions, analyze which products are performing well at different price levels, and identify stock shortages or surpluses.
+
 ![Dashboard Screenshot](images/image.png)
+
+
+**Visualizations:**
+- Column charts for product-wise sales
+- Map visualization for regional performance
+- Slicers for interactive filtering by category, stock, and unit price
+
+## Section 6. Suggested Business Action
+- Adjust sales strategies for underperforming products or regions.
+- Modify marketing efforts based on regional trends.
+- Optimize inventory management to match demand and stock levels.
+- Reconsider investment allocation across products or regions.
+
+## Section 7. Challenges
+- Integrating data from multiple sources.
+- Ensuring real-time or near real-time data updates.
+- Designing visualizations that are easy for stakeholders to interpret.
+
+## Section 8. Ethical Considerations
+- Data source for this project is not real data thus may not fully reflect desired results.
+- Ensure data privacy and compliance with data protection laws.
+- Avoid biased interpretations of sales performance data.
+- Present insights objectively without exaggeration.
